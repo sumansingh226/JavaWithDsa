@@ -1,0 +1,35 @@
+package OOPS;
+
+public class Constructor {
+
+      public  static  class  Student
+      {
+          String name ;
+          int age;
+            double percentage;
+
+            public  Student()  //default constructor
+            {
+
+            }
+          public   Student(String name, int age, double percentage) {
+               this.age = age ;
+               this.name = name;
+               this.percentage = percentage;
+          }
+          public   Student(int age, String name,  double percentage) {
+              this.age = age ;
+              this.name = name;
+              this.percentage = percentage;
+          }
+      }
+
+
+    public static void main(String[] args) {
+        Student sc3= new Student();
+        Student sc = new Student("suman", 18, 70.6);
+        System.out.println(sc.age + " "+ sc.name + " "+ sc.percentage);
+        Student sc1 = new Student(18,"suman",  70.6);
+
+    }
+}
