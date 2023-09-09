@@ -24,6 +24,7 @@ public class Constructor {
               this.age = age ;
               this.name = name;
               this.percentage = percentage;
+              numberOfStudents++;
           }
       }
 
