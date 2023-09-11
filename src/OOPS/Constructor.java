@@ -9,12 +9,10 @@ public class Constructor {
           double percentage;
         static int numberOfStudents;
           final String  schoolName = "GICG"; // for making anything constant
-
             public  Student()  //default constructor
             {
-
             }
-          public   Student(String name, int age, double percentage) {
+          public Student(String name, int age, double percentage) {
                this.age = age ;
                this.name = name;
                this.percentage = percentage;
@@ -35,6 +33,7 @@ public class Constructor {
         System.out.println(sc.age + " "+ sc.name + " "+ sc.percentage);
         Student sc1 = new Student(18, "suman", 70.6);
         Student sc6 = new Student(18,"suman",  70.6);
+        Student sc7 = new Student(18,"suman",  70.6);
         System.out.println(sc.schoolName);
         System.out.println(sc6.numberOfStudents);
     }
