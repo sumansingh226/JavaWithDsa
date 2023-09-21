@@ -1,4 +1,6 @@
-package OOPS;
+package OOPS.ClassesAndObject;
+
+import OOPS.Books;
 
 public class GettersAndSettersInJava {
 
