@@ -20,6 +20,19 @@ public class ThisKeyWord {
            {
                this.name = name; // using this to refer current class instance variable
            }
+
+           Computer method1(Computer c)
+            // this keyword can be used to return current class instance from method
+            {
+                System.out.println(c);
+                return  this;
+            }
+
+            void  method2()
+            {
+                this.method1(this);  // this keyword can be used for passing an argument inside a method
+            }
+
        }
 
 
@@ -30,5 +43,6 @@ public class ThisKeyWord {
         System.out.println(c1.name);
      c1.updateName("Mac Book Pro");
         System.out.println(c1.name);
+        c1.method2();
     }
 }
