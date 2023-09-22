@@ -1,6 +1,6 @@
 package ExceptionHandling;
-
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 
 public class TryCatchBlock {
 
@@ -10,7 +10,7 @@ public class TryCatchBlock {
         try{
             FileInputStream fe = new FileInputStream("d:/abc.txt");
         }
-        catch (Exception ex)
+        catch (FileNotFoundException ex)
         {
             System.out.println(ex);
         }
