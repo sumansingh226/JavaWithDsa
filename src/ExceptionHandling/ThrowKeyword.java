@@ -16,7 +16,7 @@ public class ThrowKeyword {
     public void divideByZero() {
         try {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Enter Age : ");
+            System.out.print("Enter Age : ");
             int age = sc.nextInt();
             if (age < 18) {
                 throw new YoungerAgeException("You are not eligible for voting");
