@@ -8,11 +8,6 @@ public class ThrowKeyword {
         }
     }
 
-    public static void main(String[] args) {
-        ThrowKeyword throwKeyword = new ThrowKeyword();
-        throwKeyword.divideByZero();
-    }
-
     public void divideByZero() {
         try {
             Scanner sc = new Scanner(System.in);
@@ -29,4 +24,11 @@ public class ThrowKeyword {
             ex.printStackTrace();
         }
     }
+
+    public static void main(String[] args) {
+        ThrowKeyword throwKeyword = new ThrowKeyword();
+        throwKeyword.divideByZero();
+    }
+
+
 }
