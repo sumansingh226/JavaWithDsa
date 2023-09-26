@@ -30,6 +30,5 @@ public class ThrowKeyword {
      }
     public static void main(String[] args) {
         ThrowKeyword.deviceByZero();
-        System.out.println("Function terminated by JVM");
     }
 }
