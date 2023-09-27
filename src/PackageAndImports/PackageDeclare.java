@@ -6,6 +6,7 @@ package PackageAndImports;
  // Import all classes from a package
   import java.util.*;
 
+
 public class PackageDeclare {
     public static void main(String[] args) {
         // Use classes from the imported packages
