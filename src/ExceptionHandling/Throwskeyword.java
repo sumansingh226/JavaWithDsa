@@ -33,6 +33,5 @@ public class Throwskeyword extends  ReadAndWriteFile {
              throw new FileHandlingException("File not found .");
          }
 
-
     }
 }
