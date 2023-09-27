@@ -1,9 +1,7 @@
 package ExceptionHandling;
-
-
 import java.util.Scanner;
 
-class  UnderAgeVotingException extends Exception
+  class  UnderAgeVotingException extends Exception
  {
      UnderAgeVotingException()
      {
@@ -15,8 +13,7 @@ class  UnderAgeVotingException extends Exception
      }
  }
 
-public class CustomExceptionHandling {
-
+  public class CustomExceptionHandling {
 
     public static void main(String[] args) throws UnderAgeVotingException {
 
@@ -25,7 +22,7 @@ public class CustomExceptionHandling {
         int age = sc.nextInt();
         if(age<18)
         {
-            throw  new UnderAgeVotingException("You are Under age ");
+            throw  new UnderAgeVotingException();
         }
         else
         {
