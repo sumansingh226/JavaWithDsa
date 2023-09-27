@@ -15,20 +15,26 @@ import java.util.Scanner;
 
   public class CustomExceptionHandling {
 
-    public static void main(String[] args) throws UnderAgeVotingException {
+    public static void main(String[] args)   {
 
         System.out.print("Enter Age :  ");
         Scanner sc =  new Scanner(System.in);
         int age = sc.nextInt();
-        if(age<18)
-        {
-            throw  new UnderAgeVotingException();
-        }
-        else
-        {
-            System.out.println("You are eligible . ");
-        }
 
+       try{
+           if(age<18)
+           {
+               throw  new UnderAgeVotingException();
+           }
+           else
+           {
+               System.out.println("You are eligible . ");
+           }
+       }
+       catch (UnderAgeVotingException e)
+       {
+           System.out.println(e.getMessage().toString());
+       }
 
     }
 }
