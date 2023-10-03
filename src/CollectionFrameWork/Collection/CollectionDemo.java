@@ -9,6 +9,9 @@ public class CollectionDemo {
         arrayList.add("1");
         arrayList.add("23");
         arrayList.addAll(arrayList);
+        arrayList.remove("23");
+        System.out.println(arrayList);
+        arrayList.removeAll(arrayList);
         System.out.println(arrayList);
     }
 }
