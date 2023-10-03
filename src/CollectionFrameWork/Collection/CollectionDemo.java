@@ -9,7 +9,8 @@ public class CollectionDemo {
         arrayList.add("1");
         arrayList.add("23"); //add one value to array
         arrayList.addAll(arrayList); // add one object to other object or add all the values of one object to other object
-        arrayList.remove("23"); // remove one value from arrayList
+        arrayList.remove("1"); // remove one value from arrayList
+        System.out.println(arrayList);
         System.out.println(arrayList.isEmpty()); // is collection object empty
         System.out.println(arrayList.contains("23")); // is it contain a value
         arrayList.removeAll(arrayList); // remove one object to other object or add all the values of one object to other object
