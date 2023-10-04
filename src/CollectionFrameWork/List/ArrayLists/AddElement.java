@@ -1,4 +1,4 @@
-package CollectionFrameWork.ArrayLists;
+package CollectionFrameWork.List.ArrayLists;
 import java.util.ArrayList;
 
 public class AddElement {
