@@ -10,6 +10,7 @@ public class SetDemo {
         Set s = new HashSet();
         s.add("0123");
         s.add("suman01233");
+        s.add(null);
         System.out.println("IsEmpty "  +    s.isEmpty());
         System.out.println("Set is : " + s);
 
