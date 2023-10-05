@@ -1,6 +1,7 @@
 package CollectionFrameWork.Set;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class SetDemo {
@@ -13,6 +14,11 @@ public class SetDemo {
         s.add(null);
         System.out.println("IsEmpty "  +    s.isEmpty());
         System.out.println("Set is : " + s);
+        Iterator i = s.iterator();
 
+        while ((i.hasNext()))
+        {
+            System.out.println("itr "  + i.next());
+        }
     }
 }
