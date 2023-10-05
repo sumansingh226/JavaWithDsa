@@ -1,5 +1,6 @@
 package CollectionFrameWork.List;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListDemo {
@@ -15,5 +16,11 @@ public class ListDemo {
         al.add(null);
         al.add(null);
         System.out.println(al);
+        Iterator i = al.iterator();
+
+        while ((i.hasNext()))
+        {
+            System.out.println("itr "  + i.next());
+        }
     }
 }
