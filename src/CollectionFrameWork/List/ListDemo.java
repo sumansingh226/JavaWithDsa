@@ -12,6 +12,8 @@ public class ListDemo {
         al.add("1");
         al.add(0 ,5);
         al.add(5 );
+        al.add(null);
+        al.add(null);
         System.out.println(al);
     }
 }
