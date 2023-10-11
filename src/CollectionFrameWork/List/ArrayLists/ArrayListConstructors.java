@@ -13,5 +13,6 @@ public class ArrayListConstructors {
         System.out.println("al + " +  al);
         ArrayList al2 = new ArrayList(al);
         System.out.println("al2 + " +  al2);
+        System.out.println(al2.get(2));
     }
 }
