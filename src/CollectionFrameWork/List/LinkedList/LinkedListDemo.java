@@ -55,5 +55,11 @@ public class LinkedListDemo {
 
         // check if a list  object is empty or not
         System.out.println( "isEmpty : " + ll.isEmpty());
+
+        // add first
+          ll.addFirst(1);
+          ll.add(2);
+          ll.addLast(3);
+        System.out.println("ll " + ll);
     }
 }
