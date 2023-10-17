@@ -13,6 +13,7 @@ public class HashSetExample {
         hs.add(20);
         hs.remove("suman");
         hs.add(true);
+        hs.add(null);
 
         System.out.println(hs);
     }
