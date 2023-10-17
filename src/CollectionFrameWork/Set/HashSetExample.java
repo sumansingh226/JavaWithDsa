@@ -12,6 +12,7 @@ public class HashSetExample {
          hs.add("chauhan");
         hs.add(20);
         hs.remove("suman");
+        hs.add(true);
 
         System.out.println(hs);
     }
