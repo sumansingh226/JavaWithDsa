@@ -12,6 +12,7 @@ public class MapExample {
         mp.put("id" ,3);
         mp.put("Name" ,"Suman Singh");
         mp.put("Salary" ,"60K");
+        mp.put(null,null);
         System.out.println(mp);
     }
 }
