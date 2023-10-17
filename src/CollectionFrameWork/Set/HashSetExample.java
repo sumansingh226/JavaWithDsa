@@ -10,6 +10,7 @@ public class HashSetExample {
          hs.add("suman");
          hs.add("chauhan");
         hs.add(20);
+        hs.remove("suman");
 
         System.out.println(hs);
     }
