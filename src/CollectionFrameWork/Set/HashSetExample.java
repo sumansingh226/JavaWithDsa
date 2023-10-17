@@ -9,6 +9,7 @@ public class HashSetExample {
         HashSet hs =  new HashSet();
          hs.add("suman");
          hs.add("chauhan");
+        hs.add(20);
 
         System.out.println(hs);
     }
