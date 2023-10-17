@@ -1,6 +1,7 @@
 package CollectionFrameWork.Set;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetExample {
 
@@ -16,5 +17,11 @@ public class HashSetExample {
         hs.add(null);
 
         System.out.println(hs);
+       Iterator ite = hs.iterator();
+
+       while ((ite.hasNext()))
+       {
+           System.out.println(ite.next());
+       }
     }
 }
