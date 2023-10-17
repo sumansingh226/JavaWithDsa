@@ -8,6 +8,7 @@ public class HashSetExample {
     public static void main(String[] args) {
         HashSet hs =  new HashSet();
          hs.add("suman");
+        hs.add(20.36);
          hs.add("chauhan");
         hs.add(20);
         hs.remove("suman");
