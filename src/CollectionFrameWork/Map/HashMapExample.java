@@ -32,5 +32,8 @@ public class HashMapExample {
         System.out.println(hm);
 
         System.out.println("contains " + hm.containsValue("suman singh"));
+        hm.replace(1, "suman  chauhan");
+        System.out.println(hm);
+
     }
 }
