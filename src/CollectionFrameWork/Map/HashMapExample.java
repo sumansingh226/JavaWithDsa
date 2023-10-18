@@ -28,9 +28,7 @@ public class HashMapExample {
             System.out.println("entry keys " + entry.getKey());
             System.out.println("entry values " + entry.getValue());
         }
-
-
-
-
+        hm.remove( 3);
+        System.out.println(hm);
     }
 }
