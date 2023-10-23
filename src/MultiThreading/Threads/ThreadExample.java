@@ -1,16 +1,19 @@
 package MultiThreading.Threads;
 
-public class ThreadExample  extends Thread {
-        public void run() {
-            for (int i = 1; i <= 5; i++) {
-                System.out.println("Thread is running: " + i);
-            }
-        }
-
-        public static  void main(String[] args) {
-            ThreadExample myThread = new ThreadExample();
-            myThread.start();
+public class ThreadExample   extends  Thread
+{
+    public  void run()
+    {
+        for(int i =0; i<10;i++)
+        {
+            System.out.println("value of I " + i);
         }
     }
+
+    public static void main(String[] args) {
+        ThreadExample thread =  new ThreadExample();
+        thread.start();
+    }
+}
 
 
