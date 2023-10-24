@@ -24,8 +24,8 @@ public class MultiThreadingExample extends Thread {
     public static void main(String[] args) {
 
         MultiThreadingExample mte1 = new MultiThreadingExample();
-        mte1.start();
         MultiThreadingExample1 mte2 = new MultiThreadingExample1();
+        mte1.start();
         mte2.start();
     }
 
