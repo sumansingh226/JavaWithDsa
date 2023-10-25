@@ -18,6 +18,7 @@ public class MethodsOfThreadClass extends Thread {
         mte.setName("InstanceThread");
         System.out.println("mte name :  " + mte.getName());
         mte.start();
-
+        System.out.println("is thread " + Thread.currentThread().getName() + "  is alive " + Thread.currentThread().isAlive());  // check is current Thread aive
+        System.out.println("mte  is thread " + mte.currentThread().getName() + "  is alive " + Thread.currentThread().isAlive());
     }
 }
