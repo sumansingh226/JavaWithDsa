@@ -10,7 +10,6 @@ public class ThreadPrioritiesExample extends Thread {
         ThreadPrioritiesExample tpe = new ThreadPrioritiesExample();
         tpe.setPriority(1);
         tpe.start();
-
         System.out.println("Current thread priority : " + Thread.currentThread().getPriority());
 
     }
