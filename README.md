@@ -1,6 +1,11 @@
-# Core Java Learning Repository
+## Getting Started
 
-Welcome to the Core Java Learning Repository! This repository is a comprehensive resource for learning various core Java
+Each topic is organized into a separate section within this README.md file. To get started with a specific topic, simply
+click on the src folder, and  we are  daily updating the code .
+
+#  Java with DSA Learning Repository
+
+Welcome to the  Java Learning Repository! This repository is a comprehensive resource for learning various  Java and DSA
 topics. Whether you're a beginner or an experienced developer looking to refresh your knowledge, this repository has
 something for you.
 
@@ -318,10 +323,6 @@ Welcome to the Data Structures and Algorithms (DSA) section of our Core Java Lea
 
 ---
 
-## Getting Started
-
-Each topic is organized into a separate section within this README.md file. To get started with a specific topic, simply
-click on the src folder, and  we are  daily updating the code .
 
 ## Contributions
 
