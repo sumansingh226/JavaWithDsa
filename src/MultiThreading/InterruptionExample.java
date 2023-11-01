@@ -7,9 +7,12 @@ public class InterruptionExample extends Thread {
                 System.out.println(Thread.currentThread().getName() + " ie.isInterrupted() : " + Thread.currentThread().isInterrupted());
                 System.out.println("i is : " + i);
                 if (i == 3) {
+                    Thread.currentThread().interrupt();
                     Thread.sleep(1000);
 
                 }
+
+                System.out.println(Thread.currentThread().getName() + " ie.isInterrupted() : " + Thread.currentThread().isInterrupted());
 
             }
         } catch (Exception ex) {
@@ -20,9 +23,9 @@ public class InterruptionExample extends Thread {
     public static void main(String[] args) {
         InterruptionExample ie = new InterruptionExample();
         ie.start();
-        System.out.println(Thread.currentThread().getName() + " is  : " + ie.isInterrupted());
-        ie.interrupt();
-        System.out.println(Thread.currentThread().getName() + " is  : " + ie.isInterrupted());
+        System.out.println(Thread.currentThread().getName() + " is  : " + Thread.currentThread().isInterrupted());
+
+        System.out.println(Thread.currentThread().getName() + " is  : " + Thread.currentThread().isInterrupted());
 
     }
 }
