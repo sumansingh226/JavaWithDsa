@@ -17,6 +17,7 @@ class BookTheaterSheet1 {
     }
 }
 
+
 class SynchronizedBlock extends Thread {
     static BookTheaterSheet1 b;
     int seats = 0;
