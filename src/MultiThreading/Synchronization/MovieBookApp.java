@@ -4,13 +4,14 @@ package MultiThreading.Synchronization;
 class BookTheaterSheet {
     int totalSheet = 10;
 
-    void bookSheet(int sheets) {
+    synchronized void bookSheet(int sheets) {  // by this
         if (totalSheet >= sheets) {
             System.out.println(sheets + " sheets booked successful .");
             totalSheet = totalSheet - sheets;
             System.out.println(totalSheet + " available.");
         } else {
             System.out.println("oops something went wrong during sheet booking pls try gain later .");
+            System.out.println(" only " + totalSheet + "seats left." );
         }
     }
 }
