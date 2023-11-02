@@ -11,7 +11,7 @@ class BookTheaterSheet {
             System.out.println(totalSheet + " available.");
         } else {
             System.out.println("oops something went wrong during sheet booking pls try gain later .");
-            System.out.println(" only " + totalSheet + "seats left." );
+            System.out.println(" only " + totalSheet + "seats left.");
         }
     }
 }
