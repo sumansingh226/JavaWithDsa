@@ -24,7 +24,7 @@ public class InterruptionExample extends Thread {
         InterruptionExample ie = new InterruptionExample();
         ie.start();
         System.out.println(Thread.currentThread().getName() + " is  : " + Thread.currentThread().isInterrupted());
-
+        Thread.currentThread().interrupted();
         System.out.println(Thread.currentThread().getName() + " is  : " + Thread.currentThread().isInterrupted());
 
     }
