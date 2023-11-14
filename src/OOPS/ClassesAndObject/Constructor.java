@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.ClassesAndObject;
 
 public class Constructor {
 
