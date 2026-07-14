@@ -324,9 +324,4 @@ Welcome to the Data Structures and Algorithms (DSA) section of our Core Java Lea
 ---
 
 
-## Contributions
-
-We welcome contributions to this repository. If you have insights, examples, or improvements related to any of the
-topics covered, please feel free to create a pull request.
-
 
