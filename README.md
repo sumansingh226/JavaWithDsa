@@ -321,7 +321,5 @@ Welcome to the Data Structures and Algorithms (DSA) section of our Core Java Lea
     - Huffman coding
     - Minimum Spanning Trees (Prim and Kruskal)
 
----
-
 
 
